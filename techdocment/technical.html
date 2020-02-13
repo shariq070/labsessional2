@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav id="navbar">
+    <header class="heading">TECHNICAL DOCUMENT</header>
+    <hr>
+    <ul>
+      <a class="nav-link" href="#Project Introduction">
+        <li>Introduction</li>
+      </a>
+      <a class="nav-link" href="#Requirement_and_Analysis">
+        <li>Requirement and Analysis</li>
+      </a>
+      <a class="nav-link" href="#Software_Design">
+        <li>Software Design</li>
+      </a>
+      <a class="nav-link" href="#Software_Testing_and_Validation">
+        <li>Software Testing and Validation</li>
+      </a>
+      <a class="nav-link" href="#Declaring_Variables">
+        <li>Declaring Variables</li>
+      </a>
+    </ul>
+  </nav>
+  <div class="container">
+    <section class="main-section" id="Project Introduction">
+      <header>Introduction</header>
+      <article>
+        <p>It is a web based comparison application where a user can do comparison of five different cloud service
+          providers on basis of storage and there pricing, two type of price comparison can be done by using this
+          application</p>
+        <li class="intro_li">Pay per use</li>
+        <li class="intro_li">Pas as you go</li>
+        <li class="intro_li">Price in detail comparison</li>
+        <p>Dynamic fetching is also done the data table in the database regarding to prices of cloud service providers
+          are updated by searching the data on the service provider’s website at runtime. Price comparison regarding to
+          different cloud service provider will be performed and best cloud service provider will be suggested to the
+          user at the top. And also SLA’s (service level agreement) of different cloud service providers are available
+          on our website.</p>
+      </article>
+    </section>
+    <section class="main-section" id="Requirement_and_Analysis">
+      <header>Requirement and Analysis</header>
+      <article>
+        <h2>Introduction</h2>
+        <p>
+          In this chapter it will discuss complete detail of our project and which format I have used to complete the
+          documentation of my project; here in this chapter I will also explain functional and non-functional
+          requirements, design and implementation constraints of my project.
+        </p>
+        <h2>Product Scope</h2>
+        <p>
+          This is a web based comparison application which will compare cloud service providers on basis of their
+          storage pricing on individual and enterprise level. Application will suggest best cloud service provider to
+          user. Comparison can be done on the basis of both storage and price.</p>
+        <p>The purpose of this application is to provide user best cloud service provider as there are too many cloud
+          service providers in the market but people do not know which one is the best and which will serve them
+          according to their needs and requirements. To overcome this hurdle and to make their selection easy we are
+          developing this application.
+        </p>
+      </article>
+    </section>
+    <section class="main-section" id="Software_Design">
+      <header>Software Design</header>
+      <article>
+        <h2>Use case Diagram</h2>
+        <p>
+          An Actor is the major part of use case diagram because actor is an entity who is interacting with the system,
+          an actor can be human, system or machine. In our use case diagram “user” is the actor and he is interacting
+          with system, this user is a primary actor. This user is primary actor because he is asking for the services
+          from system, user is having goal to do comparison of different cloud service providers so our system is
+          providing service to the user and our system will fulfill the user requirement because it is designed to
+          provide service to user.
+        </p>
+        <h2>Class Diagram</h2>
+        <p>
+          A class diagram is the collection of classes which tells the relationship and source code dependencies among
+          the classes, a class in a class diagram tells us the methods and objects used in a class. It shows us the
+          complete structure of system that how system works in different situation. It also tells us the relationship
+          among the objects. There are three portions of a class in class diagram, first one is containing the name of
+          the class and in second is having the attributes of that specific class and third one contains the operations
+          which a class can execute.
+        </p>
+      </article>
+    </section>
+    <section class="main-section" id="Software_Testing_and_Validation">
+      <header>Software Testing and Validation</header>
+      <p>
+        Testing is a process of checking the correction of system functionality against requirements. In this chapter
+        testing and result analysis in described. This chapter gives a detailed view of how the software is tested and
+        what result we got.
+      </p>
+      <h2>Testing Activities</h2>
+      <p>There are different activities contain the process of testing shown in the fig below.
+        <li class="intro_li">Identify the objectives for which testing is performed.</li>
+        <li class="intro_li">Then select inputs for your test cases.</li>
+        <li class="intro_li">Now calculate the expected outcome with yourself.</li>
+        <li class="intro_li">So, the next step is to set an environment in which the test cases are performed.</li>
+        <li class="intro_li">Execute the program on the basis of selected outputs.</li>
+        <li class="intro_li">Then, in the last analyses your outcomes and match with the expected outcomes.</li>
+      </p>
+    </section>
+    <section class="main-section" id="Declaring_Variables">
+      <header>Declaring Variables</header>
+      <article>
+        <p> You can declare the variables by following methods:
+          <div class="forcode">
+            <code>var x = 42.</code>
+            <code>let x = 42.</code>
+            <code> x = 42.</code>
+            <code>const x = 42.</code>
+          </div>
+        </p>
+        <p>Some javascript code of "Hello World"</p>
+        <code>function greetMe(yourName) {
+              alert("Hello" + yourName);
+              }
+              greetMe("World");
+            </code>
+      </article>
+
+  </div>
+
+</body>
+
+</html>
